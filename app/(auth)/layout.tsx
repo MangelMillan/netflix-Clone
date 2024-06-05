@@ -1,8 +1,7 @@
 import { ReactNode } from "react";
 export default function AuthLayout({ children }: { children: ReactNode }) {
   return (
-    <div>
-      <h1>hello layout</h1>
+    <div className="relative flex h-screen w-screen flex-col bg-black md:items-center md:justify-center md:bg-transparent">
       {children}
     </div>
   );
